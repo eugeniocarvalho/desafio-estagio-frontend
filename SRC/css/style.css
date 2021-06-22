@@ -1,0 +1,195 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #F0F0F0;
+  table-layout: fixed;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.email *{
+  max-width: 700px;
+  margin: auto;
+  background-color: #FFFFFF;
+}
+
+.email-logo img{
+  padding: 32px;
+  width: 60px;
+}
+
+.email-title{
+  background-image: url("../../_resource/blackfriday-bg-emails.png");
+  width: 100%;
+}
+
+.email-title .live {
+  padding: 28px;
+  width: 110px;
+  display: block;
+  background-color: transparent;
+}
+
+.email-title p{
+  width: 100%;
+  font-size: 32px;
+  text-align: center;
+  color: white;
+  background-color: transparent;
+  padding-bottom: 0;
+}
+
+.email-title b {
+  font-size: 32px;
+  background-color: transparent;
+}
+
+.email-title .countdown {
+  width: 250px;
+  padding: 18px;
+  background-color: transparent;
+}
+
+.email-introduction {
+  width: 95%;
+  padding-top: 60px;
+  padding-bottom: 32px;
+}
+
+.email-introduction p:first-of-type {
+  padding-bottom: 32px;
+}
+
+#calendar {
+  width: 100%;
+  display: inline-flex;
+  background-color: #F0F0F0;
+}
+
+.horizontal-line {
+  height: 100px;
+  width: 8px;
+  background-color: #FECC01;
+  border-radius: 99px;
+  margin: 0 32px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.calendar-info {
+  margin: 12px 0px;
+  background-color: #F0F0F0;
+}
+
+.calendar-info p {
+  background-color: #F0F0F0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.calendar-info b {
+  background-color: #F0F0F0;
+}
+
+#schedule {
+  margin-top: 32px;
+  padding-bottom: 10px;
+  width: 90%;
+}
+
+.calendar-list {
+  width: 93%;
+  list-style-image: url("../../_resource/check-yellow.png");
+  padding: 0;
+  padding-bottom: 3px;
+  margin: 22px;
+  margin-top: 32px;
+}
+
+.calendar-list li {
+  margin-bottom: 16px;
+  padding: none;
+}
+
+#participate-button {
+  width: max-content;
+  display: block;
+  padding: 15px 25px;
+  border-radius: 5px;
+  background-color: #FECC01;
+  box-shadow: #31333649 2px 2px 2px;
+
+  font-weight: bold;
+  border:  none;
+  cursor: pointer;
+}
+
+#participate-button:hover {
+  background-color: #ffd429;
+  box-shadow: #31333649 2px 5px 5px;
+  transition: .2s;
+}
+
+#farewell {
+  width: 90%;
+  margin-top: 32px;
+}
+
+#farewell p {
+  margin-bottom: 25px;
+}
+
+#email-midias {
+  background-color: #313336;
+  text-align: center;
+  box-shadow: #31333649 0px 5px 5px;
+}
+
+#email-midias a {
+  background-color: transparent;
+}
+
+#email-midias a img{
+  width: 40px;
+  padding: 12px 5px;
+  background-color: #313336;
+}
+
+#email-infos {
+  width: 100%;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: transparent;
+  text-align: center;
+  text-decoration: none ;
+}
+
+#email-infos p {
+  width: 550px;
+  background-color: transparent;
+}
+
+#email-infos p a {
+  color: #2CA5CE;
+  background-color: transparent;
+}
+
+@media (max-width: 580px) {
+  .email-title .countdown {
+    width: 90%;
+    padding: 18px;
+    background-color: transparent;
+  }
+
+  #email-infos {
+    display: contents;
+    
+  }
+  
+  #email-infos p {
+    width: 90%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: transparent;
+  }
+}
