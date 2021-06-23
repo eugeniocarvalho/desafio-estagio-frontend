@@ -1,15 +1,22 @@
 * {
   font-family: 'Source Sans Pro', sans-serif;
-  background: #F0F0F0;
+  /* background-color: #F0F0F0; */
   table-layout: fixed;
   font-size: 16px;
   text-decoration: none;
 }
 
+body {
+  background-color: #F0F0F0;
+}
+
 .email *{
   max-width: 700px;
   margin: auto;
-  background-color: #FFFFFF;
+}
+
+header *, main *{
+  background-color: #ffffff;
 }
 
 .email-logo img{
@@ -142,6 +149,8 @@
   background-color: #313336;
   text-align: center;
   box-shadow: #31333649 0px 5px 5px;
+  z-index: 1000;
+  nav-index: 1;
 }
 
 #email-midias a {
@@ -152,14 +161,15 @@
   width: 40px;
   padding: 12px 5px;
   background-color: #313336;
+  
 }
 
 #email-infos {
   width: 100%;
+  background: transparent;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  background-color: transparent;
   text-align: center;
   text-decoration: none ;
 }
